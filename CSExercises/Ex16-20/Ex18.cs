@@ -7,7 +7,6 @@ namespace CSExercises
         {
             Console.WriteLine("Please enter your mark");
             int mark = Convert.ToInt32(Console.ReadLine());
-            char grade;
             if (mark >= 80 && mark <= 100)
                 Console.WriteLine("A");
             else if

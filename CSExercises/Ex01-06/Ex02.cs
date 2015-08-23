@@ -10,7 +10,11 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            
+            Console.WriteLine("enter an integer");
+            int a = Convert.ToInt32(Console.ReadLine());
+            int b;
+            b = a * a;
+            Console.WriteLine(b);
         }
     }
 }
